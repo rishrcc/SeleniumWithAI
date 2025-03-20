@@ -2,17 +2,12 @@ package TestData;
 
 public class LoginData {
 
-    //public static String weakAuthUrl = "https://qlf-espaceclient.oney.fr/login?dl=true";
-    //public static String weakAuthUrl = "https://oney-website-integration.onbadi.com/login?dl=true";
-    //public static String weakAuthUrl = "https://oney-espace-client-integration.onbadi.com/login?dl=true";
-
-    //public static String weakAuthUrl = "https://oneyfr-stg-beta.azurewebsites.net/login?dl=true";
-    public static String weakAuthUrl = "https://qlf-espaceclient.oney.fr/login?dl=true";
+    public static String weakAuthUrl = "******";
 
     public enum Customer_3x {
 
-        USER_IAD("306463019"),
-        USER_PASSWORD("12345");
+        USER_IAD("****"),
+        USER_PASSWORD("***");
 
         private final String value;
 
@@ -27,8 +22,8 @@ public class LoginData {
 
     public enum Customer_4x {
 
-        USER_IAD("qetukkczcfnid.txmsnsqgvbc.10x12x.ok@oney.fr"),
-        USER_PASSWORD("Passw0rd");
+        USER_IAD("*****"),
+        USER_PASSWORD("*****");
 
         private final String value;
 
@@ -43,8 +38,8 @@ public class LoginData {
 
     public enum Customer_pre_contentieux {
 
-        USER_IAD("regimeqbaviere@oney.fr"),
-        USER_PASSWORD("Passw0rd");
+        USER_IAD("*****"),
+        USER_PASSWORD("*****");
 
         private final String value;
 
@@ -59,8 +54,8 @@ public class LoginData {
 
     public enum Customer_RCP {
 
-        USER_IAD("302712245@oney.fr"),
-        USER_PASSWORD("Passw0rd");
+        USER_IAD("*****"),
+        USER_PASSWORD("*****");
 
         private final String value;
 
