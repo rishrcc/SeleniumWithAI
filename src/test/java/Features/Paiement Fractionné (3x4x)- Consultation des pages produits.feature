@@ -1,6 +1,6 @@
 Feature: Consultation des pages 3x et 4x
 
-  @Coordonnees @PCE-4637 @Test
+  @Coordonnees @PCE-4637
   Scenario Outline: Verify that after logging in with existing 3x and 4x users, the details are correct on Mes Coordonnees
 
     Given I am logged in with <username> and <password> on weak authentication
