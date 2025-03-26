@@ -32,7 +32,7 @@ public class BrowserDriver {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--headless"); // If running in a headless environment
+            //options.addArguments("--headless"); // If running in a headless environment
             options.addArguments("--disable-gpu");
             options.addArguments("--remote-allow-origins=*");
 
